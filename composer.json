@@ -1,0 +1,20 @@
+{
+    "name": "corephp/mailer",
+    "description": "Wrapper that simplifies to use SwiftMailer",
+    "type": "library",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Eduardo Aguilar Yépez",
+            "email": "dante.aguilar41@gmail.com"
+        }
+    ],
+    "require": {
+        "swiftmailer/swiftmailer": "^6.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CorePHP\\Mailer\\": "src"
+        }
+    }
+}
